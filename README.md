@@ -17,7 +17,8 @@ When scanning your samples, please keep in mind the following points:
 - Pixel width/height of the each slice should be around 0.414 µm.
 - z-stack step size should be 1 µm.
 - Scanning samples with each axon terminal positioned diagonally (see above sample files).
-- ![Test Image 1](image/Scanning Area.png)
+- The whole areas of R7 axonal terminals must be scanned (see the figure below).
+![](https://github.com/SugieLab/MeDUsA/blob/f4279fd5d82dbc1b0ff63382b306920be79f2f62/images/Scanning%20Area.png)
 
 After scanning, you need to convert confocal z-stacks into tif files. The tif files must be named in the following order: 001.tif, 002.tif, ...<br> Next, each tif files needs to be placed in a different folder for each sample, and the folder name must end with "_ raw".
 
