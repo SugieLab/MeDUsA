@@ -7,7 +7,7 @@ To download the MeDUsA for Windows visit here: [https://doi.org/10.5281/zenodo.5
 
 To download the pretrained model please visit here:  [https://doi.org/10.5281/zenodo.5533811](https://doi.org/10.5281/zenodo.5533811)
 
-To download the sample files visit here: sample fileのつめあわせ。可能ならばgithubにあげたい。だめならzenodoに自分であげる。
+To download the sample files visit here: [MeDUsA_samples.zip](https://github.com/SugieLab/MeDUsA/blob/5b34dcd87ba854033e07035d54a5de1a8decd8e4/Sample/MeDUsA_samples.zip)
 
 
 ## Preparation before using the MeDUsA
