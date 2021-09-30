@@ -20,7 +20,7 @@ When scanning your samples, please keep in mind the following points:
 - The whole areas of R7 axonal terminals must be scanned (see the figure below).
 ![](https://github.com/SugieLab/MeDUsA/blob/f4279fd5d82dbc1b0ff63382b306920be79f2f62/images/Scanning%20Area.png)
 
-After scanning, you need to convert confocal z-stacks into tif files. The tif files must be named in the following order: 001.tif, 002.tif, ...<br> Next, each tif files needs to be placed in a different folder for each sample, and the folder name must end with "_ raw". To automate this process, we developed ImageJ plugin: [Convert_to_tiff_for_MeDUsA.ijm](https://github.com/SugieLab/MeDUsA/blob/c19dff9ffa6e4dbb14e72d1f4f756e5bad8ed9ce/plugins/Convert_to_tiff_for_MeDUsA.ijm)
+After scanning, you need to convert confocal z-stacks into tif files. The tif files must be named in the following order: 001.tif, 002.tif, ...<br> Next, each tif files needs to be placed in a different folder for each sample, and the folder name must end with "_ raw". To automate these processes, we developed an ImageJ plugin: [Convert_to_tiff_for_MeDUsA.ijm](https://github.com/SugieLab/MeDUsA/blob/c19dff9ffa6e4dbb14e72d1f4f756e5bad8ed9ce/plugins/Convert_to_tiff_for_MeDUsA.ijm)
 
 
 ## Runnning the MeDUsA
