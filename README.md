@@ -40,6 +40,7 @@ Prediction without output detection points takes 50 seconds per sample on a typi
 ## Contact
 ### Developer:
 Hiroki Kawai
+Yohei Nitta
 
 ### Corresponding Author:
 Atsushi Sugie, PhD<br>
