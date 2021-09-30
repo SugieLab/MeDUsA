@@ -27,7 +27,7 @@ After scanning, you need to convert confocal z-stacks into tif files. The tif fi
 MeDUsA has a very simple graphical interface and is capable of automatically quantify the number of R7 axons of *Drosophila* in a few short steps.
 1. In 'data folder', choose the folder containing the samples you would like to predict.
 2. In 'mask output folder', choose the folder where you would like to export predicted mask files.
-3. In 'mask output folder', choose the folder where you would like to output the .csv file for prediction results.
+3. In 'result output folder', choose the folder where you would like to output the .csv file for prediction results.
 4. In 'model hdf5', choose the pretrained model you downloaded above.
 5. In 'percent of images to output detection points', if you want to get images that shows where MeDUsA predicted as axonal terminals, enter “100”. But it will take a long time. 
 6. Click the start button.
@@ -39,11 +39,11 @@ Prediction without output detection points takes 50 seconds per sample on a typi
 
 ## Contact
 ### Developer:
-Hiroki Kawai
-Yohei Nitta
+__Hiroki Kawai__: developed and trained MeDUsA<br>
+__Yohei Nitta__: developed ImageJ plugin
 
 ### Corresponding Author:
-Atsushi Sugie, PhD<br>
+__Atsushi Sugie__, PhD<br>
 Associate Professor<br>
 Brain Research Institute<br>
 Niigata University<br>
