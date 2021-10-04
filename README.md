@@ -34,8 +34,6 @@ MeDUsA has a very simple graphical interface and is capable of automatically qua
 Prediction will start immediately and predicted mask will be exported as tif files to the folder specified in step-2 and prediction result will be exported as csv file to the folder selected in step-3.<br><br>
 Prediction without output detection points takes 50 seconds per sample on a typical desktop workstation (CPU: Intel Core i7 9800 X 3.8 GHz RAM: DDR4 128 GB).
 
-## Trouble shooting
-
 ## Contact
 ### Developer:
 __Hiroki Kawai__: developed and trained MeDUsA<br>
