@@ -16,16 +16,15 @@ When scanning your samples, please keep in mind the following points:
 - Pixel size of each slice in the z-stack must be 512 * 512 pixels.
 - Pixel width/height of the each slice should be around 0.414 µm.
 - z-stack step size should be 1 µm.
-- Scanning samples with each axon terminal positioned diagonally (see above sample files).
-- The whole areas of R7 axonal terminals must be scanned (see the figure below).
+- The whole areas of R7 axonal terminals must be included (see the figure below and the sample files).
 ![](https://github.com/SugieLab/MeDUsA/blob/f4279fd5d82dbc1b0ff63382b306920be79f2f62/images/Scanning%20Area.png)
 
-After scanning, you need to convert confocal z-stacks into tif files. The tif files must be named in the following order: 001.tif, 002.tif, ...<br> Next, each tif files needs to be placed in a different folder for each sample, and the folder name must end with "_ raw". To automate these processes, we developed an ImageJ plugin: [Convert_to_tiff_for_MeDUsA.ijm](https://github.com/SugieLab/MeDUsA/blob/c19dff9ffa6e4dbb14e72d1f4f756e5bad8ed9ce/plugins/Convert_to_tiff_for_MeDUsA.ijm)
+After scanning, you need to convert confocal z-stacks into tif files. The tif files must be named in the following order: 001.tif, 002.tif, ...<br> Next, each tif files needs to be placed in a different folder for each sample, and the folder name must end with "_ raw". The folders created in this manner is entered into an arbitrary folder.<br><br>To automate these processes, we developed an ImageJ plugin: [Convert_to_tiff_for_MeDUsA.ijm](https://github.com/SugieLab/MeDUsA/blob/c19dff9ffa6e4dbb14e72d1f4f756e5bad8ed9ce/plugins/Convert_to_tiff_for_MeDUsA.ijm)
 
 
 ## Runnning the MeDUsA
 MeDUsA has a very simple graphical interface and is capable of automatically quantify the number of R7 axons of *Drosophila* in a few short steps.
-1. In 'data folder', choose the folder containing the samples you would like to predict.
+1. In 'data folder', choose the folder containing the folders named “xxx_raw” including samples you would like to predict. Multiple samples can be predicted with the subfolders.
 2. In 'mask output folder', choose the folder where you would like to export predicted mask files.
 3. In 'result output folder', choose the folder where you would like to output the .csv file for prediction results.
 4. In 'model hdf5', choose the pretrained model you downloaded above.
