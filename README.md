@@ -20,13 +20,13 @@ When scanning your samples, please keep in mind the following points:
 
 ![](https://github.com/SugieLab/MeDUsA/blob/f4279fd5d82dbc1b0ff63382b306920be79f2f62/images/Scanning%20Area.png)
 
-#### Fig. 1:Schematic Model of 
+#### Fig. 1: Schematic Model of 
 
 After scanning, you need to convert confocal z-stacks into tif files. The tif files must be named in the following order: 001.tif, 002.tif, ...<br> Next, each tif files needs to be placed in a different folder for each sample, and the folder name must end with "_ raw". The folders created in this manner is entered into an arbitrary folder (see the Fig. 2 below).
-![](https://github.com/SugieLab/MeDUsA/blob/be7c14651f8df26bbc952e029492fb66da61307a/images/Directory%20Structure.png)
+![](https://github.com/SugieLab/MeDUsA/blob/af378264454cdd7c1f069e1c942e6cce6760cb76/images/Directory%20Structure.png)
 #### Fig. 2: Directory structure
 
-<br><br>To automate these processes, we developed an ImageJ plugin: [Convert_to_tiff_for_MeDUsA.ijm](https://github.com/SugieLab/MeDUsA/blob/c19dff9ffa6e4dbb14e72d1f4f756e5bad8ed9ce/plugins/Convert_to_tiff_for_MeDUsA.ijm)
+To automate these processes, we developed an ImageJ plugin: [Convert_to_tiff_for_MeDUsA.ijm](https://github.com/SugieLab/MeDUsA/blob/c19dff9ffa6e4dbb14e72d1f4f756e5bad8ed9ce/plugins/Convert_to_tiff_for_MeDUsA.ijm)
 
 
 ## Runnning the MeDUsA
