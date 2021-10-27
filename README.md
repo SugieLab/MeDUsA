@@ -1,5 +1,5 @@
 # MeDUsA
-For details, please read the paper here: 論文のアドレス
+For details, please read the paper here: [https://www.biorxiv.org/content/10.1101/2021.10.25.465674](https://www.biorxiv.org/content/10.1101/2021.10.25.465674)
 
 ### MeDUsA (a *Me*thod for the quantification of *D*egeneration *Us*ing fly *A*xons) is a software that automatically creates masks and counts axon terminals using a combination of deep learning and Python. By using the software, the number of R7 axons in Drosophila can be automatically quantified easily and quickly from confocal images.
 
