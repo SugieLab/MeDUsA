@@ -10,21 +10,28 @@ To download the pretrained model please visit here:  [https://doi.org/10.5281/ze
 To download the sample files visit here: [MeDUsA_samples.zip](https://github.com/SugieLab/MeDUsA/blob/5b34dcd87ba854033e07035d54a5de1a8decd8e4/Sample/MeDUsA_samples.zip)
 
 
+
 ## Preparation before using the MeDUsA
-See Fig. 2 (C) of the above paper for specimen preparation.<br><br>
+For specimen preparation, after secondary antibody treatment, the fly brains washed with 0.3% PBT were transferred to a microscope slide with the posterior side facing up and placed in a row between the two insect pins (see Fig. 1 below). The insect pins were used because they are 0.1 μm in diameter and fit just the thickness of the fly brains. A coverslip was placed on the top and fill between the slides and coverslip with mounting medium.<br>
+
+![](https://github.com/SugieLab/MeDUsA/blob/628e11c7eed6ed73134213ebdbeb3eb986f28d71/images/specimen%20preparation.png)
+
+#### Fig. 1: Schematic drawing of the preparations of the specimen. Whole mounted brain preparations and the cross section of the preparation were described. The posterior side of the brains is up under cover slips.
+
+<br>
 When scanning your samples, please keep in mind the following points:
 - Pixel size of each slice in the z-stack must be 512 * 512 pixels.
 - Pixel width/height of the each slice should be around 0.414 µm.
 - z-stack step size should be 1 µm.
-- The whole areas of R7 axonal terminals must be included (see the Fig. 1 below and the sample files).
+- The whole areas of R7 axonal terminals must be included (see the Fig. 2 below and the sample files).
 
 ![](https://github.com/SugieLab/MeDUsA/blob/f4279fd5d82dbc1b0ff63382b306920be79f2f62/images/Scanning%20Area.png)
 
-#### Fig. 1: Schematic diagram of scanning area. This illustrate represents the horizontal section of fly brain. Green areas, blue areas, and red areas indicate medulla, lobula, and lobula plate, respectively. Magenta lines are R7 axons. You need to scan the whole areas of R7 axonal terminals
+#### Fig. 2: Schematic diagram of scanning area. This illustrate represents the horizontal section of fly brain. Green areas, blue areas, and red areas indicate medulla, lobula, and lobula plate, respectively. Magenta lines are R7 axons. You need to scan the whole areas of R7 axonal terminals
 
-After scanning, you need to convert confocal z-stacks into tif files. The tif files must be named in the following order: 001.tif, 002.tif, ...<br> Next, each tif files needs to be placed in a different folder for each sample, and the folder name must end with "_ raw". The folders created in this manner is entered into an arbitrary folder (see the Fig. 2 below).<br>To automate these processes, we developed an ImageJ plugin: [Convert_to_tiff_for_MeDUsA.ijm](https://github.com/SugieLab/MeDUsA/blob/c19dff9ffa6e4dbb14e72d1f4f756e5bad8ed9ce/plugins/Convert_to_tiff_for_MeDUsA.ijm)<br><br>
+After scanning, you need to convert confocal z-stacks into tif files. The tif files must be named in the following order: 001.tif, 002.tif, ...<br> Next, each tif files needs to be placed in a different folder for each sample, and the folder name must end with "_ raw". The folders created in this manner is entered into an arbitrary folder (see the Fig. 3 below).<br>To automate these processes, we developed an ImageJ plugin: [Convert_to_tiff_for_MeDUsA.ijm](https://github.com/SugieLab/MeDUsA/blob/c19dff9ffa6e4dbb14e72d1f4f756e5bad8ed9ce/plugins/Convert_to_tiff_for_MeDUsA.ijm)<br><br>
 ![](https://github.com/SugieLab/MeDUsA/blob/62d62c52d162851ccd656d527612edc3bd090e50/images/Directory%20Structure.png)
-#### Fig. 2: Directory structure for MeDUsA
+#### Fig. 3: Directory structure for MeDUsA
 
 
 ## Runnning the MeDUsA
