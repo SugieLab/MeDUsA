@@ -12,7 +12,7 @@ To download the sample files visit here: [MeDUsA_samples.zip](https://github.com
 
 
 ## Preparation before using the MeDUsA
-For specimen preparation, after secondary antibody treatment, the fly brains washed with 0.3% PBT were transferred to a microscope slide with the posterior side facing up and placed in a row between the two insect pins (see Fig. 1 below). The insect pins were used because they are 0.1 μm in diameter and fit just the thickness of the fly brains. A coverslip was placed on the top and fill between the slides and coverslip with mounting medium.<br>
+For specimen preparation, after secondary antibody treatment, the fly brains washed with 0.3% PBT were transferred to a microscope slide with the posterior side facing up and placed in a row between the two insect pins (see Fig. 1 below). The insect pins were used because they are 100 μm in diameter and fit just the thickness of the fly brains. A coverslip was placed on the top and fill between the slides and coverslip with mounting medium.<br>
 
 ![](https://github.com/SugieLab/MeDUsA/blob/f887fdec3e70d8e6fdc7c8fecfe82b044cd78592/images/specimen%20preparation-small.png)
 
